@@ -11,10 +11,12 @@
 
 body {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    
+
+    padding-left: 10px;
     min-height: 100vh;
+    
     background-color: #023047;
 }
 
@@ -26,6 +28,7 @@ body {
     box-shadow: 10px 2px 2px #5f9ea089;
     border-radius: 10px;
 
+    transition: 1s ease;
 }
 
 .navegation ul {
