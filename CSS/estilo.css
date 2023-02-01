@@ -25,7 +25,7 @@ body {
     height: 500px;
     width: 300px;
     background-color: #5f9ea0;
-    box-shadow: 10px 2px 2px #5f9ea089;
+    box-shadow: 5px 5px 0px #5f9ea089;
     border-radius: 10px;
 
     transition: 1s ease;
@@ -33,7 +33,7 @@ body {
 
 .navegation ul {
     list-style: none;
-    padding: 1rem; 
+    padding: 10px; 
 
     display: flex;
     flex-direction: column;
@@ -62,7 +62,8 @@ body {
 
 .navegation li a:hover, .navegation li a:focus {
     background-color: #edede9;
-    width: 100%;
+    width: 80%;
+    height: 40px;
     border-radius: 10px;
     transition: 0.5s ease-in-out;
 }
@@ -82,6 +83,8 @@ body {
     text-decoration: none;
     color: #edede9;
     font-size: 1em;
+
+    transition: 0.5s ease-in-out;
 }
 
 .navegation a .icon{

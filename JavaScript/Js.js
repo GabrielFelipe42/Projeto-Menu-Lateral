@@ -1,6 +1,7 @@
 function clickmenu() {
     const itens = document.querySelectorAll('.itens')
     const navegation = document.getElementById('inavegation')
+
     
     itens.forEach(item => {
         if (item.style.display == 'block') {
